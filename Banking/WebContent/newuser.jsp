@@ -57,7 +57,9 @@ else{
 }
 }catch(Exception e){e.printStackTrace();}
 %>
-
+<form action="logout" method="post" style="float: right;">
+<input type="submit" value="Logout" >
+</form>
 <fieldset><legend>New Account</legend>
 <form action="newuser.jsp" method="post">
 <table>

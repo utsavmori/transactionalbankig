@@ -53,6 +53,9 @@ else{
 %>
 
 <div style="width:800px; margin:200px auto;">
+<form action="logout" method="post" style="float: right;">
+<input type="submit" value="Logout" >
+</form>
 <Fieldset><legend>Delete User</legend>
 
 <form action="deleteuser.jsp" method="post">

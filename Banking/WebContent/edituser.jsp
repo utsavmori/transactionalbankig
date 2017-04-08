@@ -14,6 +14,9 @@
 <hr><br>
 </head>
 <body>
+<form action="logout" method="post" style="float: right;">
+<input type="submit" value="Logout" >
+</form>
 
 <form action="edituser.jsp" method="post">
 Enter Account Number:&nbsp;&nbsp;<input type="number" min="0" name="acno">&nbsp;&nbsp;&nbsp;
