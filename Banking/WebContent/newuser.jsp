@@ -7,6 +7,7 @@
 <title>Admin Home -Net Banking</title>
 <h2><center>Net Banking Admin</center></h2>
 <table align="center" border=1 style="border-collapse:collapse" cellpadding="10">
+
 <td><a href="newuser.jsp">New User</a></td>
 <td><a href="edituser.jsp">Edit User</a></td>
 <td><a href="deleteuser.jsp">Delete User</a></td>

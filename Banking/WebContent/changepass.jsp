@@ -8,7 +8,7 @@
 <h2><center>Net Banking</center></h2>
 <table align="center" border=1 style="border-collapse:collapse" cellpadding="10">
 <tr><td><a href="userpage.jsp">Home</a></td>
-<tr><td><a href="statement.jsp">View Statement</a></td>
+<td><a href="statement.jsp">View Statement</a></td>
 <td><a href="onlinetransfer.jsp">Online Transfer</a></td>
 <td><a href="changepass.jsp">Change Password</a></td>
 </table>

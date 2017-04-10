@@ -32,9 +32,9 @@ else{
 			ResultSet rs=stmt.executeQuery("SELECT 	* FROM acholder WHERE loginid='"+unamew+"'  ");
 			if(rs.next()){				
 				 String acno=rs.getString(1);
-				 String name=rs.getString(2);
-				 String actype=rs.getString(3);
-				 double bal=rs.getDouble(4);	
+				 String name=rs.getString(3);
+				 String actype=rs.getString(4);
+				 double bal=rs.getDouble(5);	
 				 out.println("<center>Welcome "+name);
 					out.println("<br> Your Account No. "+acno);
 					out.println("<br>Account Type: "+actype);
@@ -52,7 +52,7 @@ else{
 </form>
 <table border=1 align="center" cellpadding="10" style="border-collapse:collapse;">
 <tr><td><a href="userpage.jsp">Home</a></td>
-<tr><td><a href="statement.jsp">View Statement</a></td>
+<td><a href="statement.jsp">View Statement</a></td>
 <td><a href="onlinetransfer.jsp">Online Transfer</a></td>
 <td><a href="changepass.jsp">Change Password</a></td>
 </table>
